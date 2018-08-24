@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="mainMenuItemSize">45sp</dimen>
+    <dimen name="textMargin">3dp</dimen>
+    <dimen name="margin">10dp</dimen>
+    <dimen name="minMargin">3dp</dimen>
+    <dimen name="editTextMargin">50dp</dimen>
+</resources>

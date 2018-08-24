@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Checkers</string>
+    <string-array name="modes">
+        <item>Easy AI</item>
+        <item>With friend</item>
+    </string-array>
+    <string-array name="con">
+        <item>Via Internet</item>
+        <item>Via Bluetooth</item>
+    </string-array>
+    <string-array name="lang">
+        <item>English</item>
+        <item>Russian</item>
+    </string-array>
+    <string name="item1">Item1</string>
+    <string name="item2">Item2</string>
+    <string name="item3">Item3</string>
+    <string name="item4">Settings</string>
+    <string name="s1">Play</string>
+    <string name="s2">Multiplayer</string>
+    <string name="s3">Properties</string>
+    <string name="s4">Exit</string>
+    <string name="s5">Discovered devices:</string>
+    <string name="s6">Search</string>
+    <string name="s7">Game over, white won</string>
+    <string name="s8">Game over, black won</string>
+    <string name="s9">Select mode</string>
+    <string name="s10">Select type of connecting</string>
+    <string name="s11">Language:</string>
+    <string name="s12">Connected devices:</string>
+    <string name="s13">Apply</string>
+    <string name="s14">Are you want to start new game?</string>
+    <string name="s15">New game</string>
+    <string name="s16">Main menu</string>
+    <string name="s17">Are you want to leave a game?</string>
+    <string name="s18">Yes</string>
+    <string name="s19">No</string>
+    <string name="s20">General</string>
+    <string name="s21">Customization</string>
+    <string name="s22">Color of illuminated cells:</string>
+    <string name="s23">Background:</string>
+    <string name="s24">Autorization</string>
+    <string name="s25">Nickname</string>
+    <string name="s26">Password</string>
+    <string name="t1"></string>
+    <string name="t2"></string>
+    <string name="t3"></string>
+    <string name="key1">key1</string>
+    <string name="key2">key2</string>
+    <string name="but"></string>
+    <string name="back"></string>
+
+    <string name="butReg"><u>register</u></string>
+    <string name="butAuth"><u>Log in</u></string>
+    <string name="or"><u>or</u></string>
+    <string name="accept"><u>Accept</u></string>
+
+    <string name="ses">Create session</string>
+    <string name="creator">Creator</string>
+    <string name="title">Session title</string>
+    <string name="create">Create</string>
+    <string name="rate">Rate</string>
+
+    <string name="player1">Creator</string>
+    <string name="player2">Guest</string>
+
+    <string name="ready">Ready</string>
+
+    <string name="start">Start</string>
+
+    <string name="badRate">Your rating does not fit to this session</string>
+
+</resources>

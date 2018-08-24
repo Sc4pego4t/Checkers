@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Checkers</string>
+    <string-array name="modes">
+        <item>Игра с легким ботом</item>
+        <item>Игра с другом</item>
+    </string-array>
+    <string-array name="con">
+        <item>Игра через интернет</item>
+        <item>Игра по Bluetooth</item>
+    </string-array>
+    <string-array name="lang">
+        <item>Английский</item>
+        <item>Русский</item>
+    </string-array>
+    <string name="Настройки">Item4</string>
+    <string name="s1">Играть</string>
+    <string name="s2">Игра по сети</string>
+    <string name="s3">Настройки</string>
+    <string name="s4">Выход</string>
+    <string name="s5">Найденые устройства:</string>
+    <string name="s6">Искать</string>
+    <string name="s7">Игра закончена, белые победили</string>
+    <string name="s8">Игра закончена, черные победили</string>
+    <string name="s9">Выберите режим</string>
+    <string name="s10">Выберите тип подключения</string>
+    <string name="s11">Язык:</string>
+    <string name="s12">Соединенные устройства:</string>
+    <string name="s13">Применить</string>
+    <string name="s14">Начать новую игру?</string>
+    <string name="s15">Новая игра</string>
+    <string name="s16">Главное меню</string>
+    <string name="s17">Покинуть игру?</string>
+    <string name="s18">Да</string>
+    <string name="s19">Нет</string>
+    <string name="s20">Общие настройки</string>
+    <string name="s21">Изменения вида</string>
+    <string name="s22">Цвет подсвечиваемых клеток:</string>
+    <string name="s23">Фон приложения:</string>
+    <string name="s24">Авторизация</string>
+    <string name="s25">Псевдоним</string>
+    <string name="s26">Пароль</string>
+    <string name="t1"></string>
+    <string name="t2"></string>
+    <string name="t3"></string>
+    <string name="key1">key1</string>
+    <string name="key2">key2</string>
+    <string name="but"></string>
+    <string name="back"></string>
+
+    <string name="butReg"><u>зарегистрироваться</u></string>
+    <string name="butAuth"><u>Войти</u></string>
+    <string name="or"><u>или</u></string>
+    <string name="accept"><u>Принять</u></string>
+
+    <string name="ses">Создать комнату</string>
+    <string name="creator">Создатель</string>
+    <string name="title">Название комнаты</string>
+    <string name="create">Создать</string>
+    <string name="rate">Рейтинг</string>
+
+    <string name="player1">Создатель</string>
+    <string name="player2">Гость</string>
+
+    <string name="ready">Готов</string>
+
+    <string name="start">Старт</string>
+
+    <string name="badRate">Ваш рейтинг не подходит параметрам комнаты</string>
+</resources>

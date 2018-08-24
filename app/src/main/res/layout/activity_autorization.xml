@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="@color/white"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:descendantFocusability="beforeDescendants"
+        android:focusableInTouchMode="true"
+        android:layout_gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:orientation="vertical">
+
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/editTextMargin"
+            android:layout_marginEnd="@dimen/editTextMargin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColorHint="@color/darkgrey"
+            android:layout_height="wrap_content"
+            android:hint="@string/s25">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et1"
+                android:textColor="@color/black"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+
+        <com.google.android.material.textfield.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_marginStart="@dimen/editTextMargin"
+            android:layout_marginEnd="@dimen/editTextMargin"
+            android:layout_marginTop="@dimen/margin"
+            android:layout_marginBottom="@dimen/margin"
+            android:textColorHint="@color/darkgrey"
+            android:layout_height="wrap_content"
+            app:boxStrokeWidth="6dp"
+
+            android:hint="@string/s26">
+
+            <com.google.android.material.textfield.TextInputEditText
+                android:layout_width="match_parent"
+                android:id="@+id/et2"
+                android:textColor="@color/black"
+                android:inputType="textPassword"
+                android:layout_height="wrap_content"/>
+        </com.google.android.material.textfield.TextInputLayout>
+        <LinearLayout
+            android:layout_margin="@dimen/margin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/butAuth"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/textMargin"
+                android:textColor="@color/black"
+                android:id="@+id/accept"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/or"
+                android:textColor="@color/darkgrey"
+                android:layout_margin="@dimen/textMargin"
+                android:layout_gravity="center"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/butReg"
+                android:layout_gravity="center"
+                android:layout_margin="@dimen/textMargin"
+                android:textColor="@color/black"
+                android:id="@+id/reg"
+                />
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+</ScrollView>

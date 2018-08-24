@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+              android:gravity="center"
+              android:id="@+id/fon"
+    android:background="@drawable/back1">
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center"
+    android:background="@drawable/back"
+    android:id="@+id/ll">
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/black"
+        android:onClick="play"
+        android:text="@string/s1"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textSize="@dimen/mainMenuItemSize" />
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/but1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:onClick="net"
+        android:text="@string/s2"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textSize="@dimen/mainMenuItemSize" />
+    <Button
+    android:textColor="@color/black"
+    android:id="@+id/but2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:onClick="prop"
+    android:text="@string/s3"
+    android:background="@null"
+    android:textAllCaps="false"
+    android:textSize="@dimen/mainMenuItemSize" />
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/auth"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="auth"
+        android:text="@string/s24"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textSize="@dimen/mainMenuItemSize" />
+    <Button
+        android:textColor="@color/black"
+        android:id="@+id/but3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="exit"
+        android:text="@string/s4"
+        android:background="@null"
+        android:textAllCaps="false"
+        android:textSize="@dimen/mainMenuItemSize" />
+</LinearLayout>
+
+</LinearLayout>
